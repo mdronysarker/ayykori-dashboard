@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style-type: none;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
