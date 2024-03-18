@@ -8,7 +8,7 @@ export default function RootLayout() {
       <div className=" p-6 w-[20%]  ">
         <Sidebar />
       </div>
-      <div className="bg-green-600 w-[75%]">
+      <div className=" w-[75%]">
         <Outlet />
       </div>
     </div>
