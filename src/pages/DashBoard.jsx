@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "../components/Header";
 import Candidate from "../components/Candidate";
+import Chart from "../components/Chart";
+import ProgressBar from "../components/ProgressBar";
 
 export default function DashBoard() {
   return (
@@ -29,6 +31,14 @@ export default function DashBoard() {
             percentage={74}
             color={`rgb(255, 106, 73)`}
           />
+        </div>
+        <div className="flex gap-[5%] px-5 mt-12">
+          <div className="w-[70%]">
+            <Chart />
+          </div>
+          <div className="w-[25%]">
+            <ProgressBar />
+          </div>
         </div>
       </div>
       <div className="w-[15%]">hello</div>
