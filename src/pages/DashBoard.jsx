@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Candidate from "../components/Candidate";
 import Chart from "../components/Chart";
 import ProgressBar from "../components/ProgressBar";
+import DahboardLeft from "../components/DahboardLeft";
 
 export default function DashBoard() {
   return (
@@ -41,7 +42,9 @@ export default function DashBoard() {
           </div>
         </div>
       </div>
-      <div className="w-[15%]">hello</div>
+      <div className="w-[24%] border-l-4 border-[#11998E] h-screen">
+        <DahboardLeft />
+      </div>
     </div>
   );
 }
